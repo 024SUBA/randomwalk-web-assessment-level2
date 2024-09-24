@@ -1,0 +1,118 @@
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+*/@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    color: #f8f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0E4D92; /* Deep sea blue */
+    background-image: linear-gradient(to bottom right, #001f3f, #0077be); /* Ocean gradient */
+}
+
+.container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #87CEEB; /* Light sky blue, mimicking shallow water */
+    border: 2px solid #2A9DF4; /* Bright blue for oceanic vibes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em; /* Increased font size for better visibility */
+    cursor: pointer;
+    color: #000080; /* Navy text color */
+    /* Remove border radius for square appearance */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for a stronger 3D effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transformation and shadow */
+}
+
+.cell:hover {
+    background-color: #6495ed; /* Dark turquoise on hover */
+    transform: translateY(-4px); /* Lift effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4), 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #E0FFFF; /* Light cyan for underwater shimmer */
+}
+
+button {
+    font-family: 'Prompt', sans-serif;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4682B4; /* Steel blue for a sea vibe */
+    color: #f8f8ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for a floating button effect */
+}
+
+button:hover {
+    background-color: #5F9EA0; /* Light sea green on hover */
+}
+
